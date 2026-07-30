@@ -1,0 +1,18 @@
+[server]
+enableStaticServing = false
+
+[theme]
+# Verde Matrix brillante para botones y elementos interactivos
+primaryColor = "#00FF41"
+
+# Fondo negro puro
+backgroundColor = "#000000"
+
+# Fondo gris muy oscuro/verdoso para la barra lateral y tarjetas
+secondaryBackgroundColor = "#081108"
+
+# Texto verde neón clásico
+textColor = "#39FF14"
+
+# Tipografía de consola (hacker style)
+font = "monospace"
