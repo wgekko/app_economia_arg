@@ -107,12 +107,10 @@ APP_ECONOMIA_ARG/
 - **Exportación:** FPDF (Generación de reportes en PDF).
 
 ---
-*Desarrollado para la investigación y el análisis pr
-
-
+*Desarrollado para la investigación y el análisis predictivo de la coyuntura económica Argentina.*
 
 
 video demo
 
 
-edictivo de la coyuntura económica Argentina.*
+
