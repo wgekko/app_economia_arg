@@ -73,21 +73,22 @@ APP_ECONOMIA_ARG/
 1. **Clonar el repositorio:**
    bash
    git clone https://github.com/wgekko/app_economia_arg.git
+   
    cd app_economia_arg
 
 
-2. **Crear un entorno virtual (Recomendado):**
+3. **Crear un entorno virtual (Recomendado):**
    bash
    python -m venv env
    source env/bin/activate  # En Windows: env\Scripts ctivate
    
 
-3. **Instalar las dependencias:**
+4. **Instalar las dependencias:**
    bash
    pip install -r requirements.txt
    
 
-4. **Ejecutar la plataforma:**
+5. **Ejecutar la plataforma:**
    Para iniciar el dashboard principal:
    bash
    streamlit run app.py   
@@ -106,4 +107,12 @@ APP_ECONOMIA_ARG/
 - **Exportación:** FPDF (Generación de reportes en PDF).
 
 ---
-*Desarrollado para la investigación y el análisis predictivo de la coyuntura económica Argentina.*
+*Desarrollado para la investigación y el análisis pr
+
+
+
+
+video demo
+
+
+edictivo de la coyuntura económica Argentina.*
