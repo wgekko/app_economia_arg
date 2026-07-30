@@ -50,8 +50,9 @@ def main():
         eda.show_descriptive_stats()
 
     elif menu == "3. Econometría (ADF/ARIMA/Holt-Winters)":
-        st.header(" Análisis Econométrico Tradicional & Diagnóstico de Estacionariedad")
+        st.subheader(" Análisis Econométrico Tradicional & Diagnóstico de Estacionariedad")
         st.markdown("Evaluación estadística de series temporales con modelos ARIMA y Suavizado Exponencial.")
+        st.info("los valores que se publican no los valores de las variables nominales sino loa valores ajustados de acuerdo a cada variable que ancla de ajuste")
 
         # Selección de parámetros principales
         c1, c2, c3 = st.columns(3)
@@ -91,6 +92,7 @@ def main():
 
         # --- SECCIÓN 2: MODELADO Y PRONÓSTICO ---
         st.subheader("Pronóstico Econométrico y Evaluación")
+        st.info("los valores que se publican no los valores de las variables nominales sino loa valores ajustados de acuerdo a cada variable que ancla de ajuste")
 
         modelo_tipo = st.radio("Seleccione Modelo de Series Temporales", ["ARIMA(p, d, q)", "Holt-Winters Exponencial"], horizontal=True)
 
@@ -209,6 +211,7 @@ def main():
 
     elif menu == "4. Machine Learning Benchmark":
         st.subheader("Ensamble & Competencia de Modelos ML")
+        st.info("los valores que se publican no los valores de las variables nominales sino loa valores ajustados de acuerdo a cada variable que ancla de ajuste")
         target = st.selectbox("Variable Objetivo", df.columns)
         lags = st.slider("Lags (Rezagos)", 1, 12, 3)
         
@@ -222,6 +225,7 @@ def main():
     elif menu == "5. Redes Neuronales (LSTM)":
         st.subheader("Deep Learning: Redes Neuronales Recurrentes (LSTM)")
         st.markdown("Modelado secuencial avanzado de series temporales macroeconómicas.")
+        st.info("los valores que se publican no los valores de las variables nominales sino loa valores ajustados de acuerdo a cada variable que ancla de ajuste")
         
         col1, col2, col3 = st.columns(3)
         with col1:
@@ -317,6 +321,7 @@ def main():
 
     elif menu == "6. Descubrimiento de Patrones & Causalidad":
         st.subheader("Causalidad de Granger y Clustering de Regímenes")
+        st.info("los valores que se publican no los valores de las variables nominales sino loa valores ajustados de acuerdo a cada variable que ancla de ajuste")
         pat = PatternDiscovery(df)
         
         col1, col2 = st.columns(2)

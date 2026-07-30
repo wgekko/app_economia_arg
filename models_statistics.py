@@ -21,7 +21,7 @@ def run_statistics_app():
         # Título y Descripción
         st.subheader("Análisis Estadístico: Dinámica del Dólar, IPC y Merval")
         st.markdown("Este dashboard interactivo aplica modelos de estadística descriptiva, probabilidad y Machine Learning sobre la serie histórica del Dólar, IPC regional y el índice Merval.")
-
+        st.info("los valores que se publican no los valores de las variables nominales sino loa valores ajustados de acuerdo a cada variable que ancla de ajuste")
         # Carga de datos
         @st.cache_data
         def load_data():
