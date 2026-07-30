@@ -72,8 +72,8 @@ APP_ECONOMIA_ARG/
 
 1. **Clonar el repositorio:**
    bash
-   git clone https://github.com/tu-usuario/plataforma-predictiva-ar.git
-   cd plataforma-predictiva-ar
+   git clone https://github.com/wgekko/app_economia_arg.git
+   cd app_economia_arg
 
 
 2. **Crear un entorno virtual (Recomendado):**
